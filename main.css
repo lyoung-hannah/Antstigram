@@ -1,0 +1,139 @@
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			margin: auto;
+			color: black;
+			background-color: #e6f2ff;
+		}
+		header{
+			font-size: 1.5rem;
+			color: #800;
+			font-weight: bold;
+			background-color: #f9ecf2;
+			padding: 0 1rem;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-bottom: 4px solid #800;
+		}
+		nav {
+			font-size: 1rem;
+			padding-left: 2rem;
+			display: inline-flex;
+		}
+		a {
+			color: #800;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #e6b3ff;
+		}
+		main{
+			width:90%;
+			margin: auto;
+		}
+		h1 {margin-top: 0;
+			margin-bottom: 0;
+			padding-top: 0;
+			font-family: 'ZCOOL XiaoWei', serif;
+			font-size: 5rem;
+			color: #f9ecf2;
+			text-shadow: 3px 2px grey;
+			font-weight: bold;
+			text-align: center;
+		}
+		h3 {
+			margin-top: 0;
+			padding-top: 0;
+			padding-bottom: 5rem;
+		}
+		h2,h3,h4{
+			color: #800;
+		}
+		h3,h5{
+			display: flex;
+			justify-content: center;
+		}
+		h4{
+			font-size: 2rem;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
+		p,h2{
+			padding-left: 2rem;
+		}
+		h5 {
+			margin-top: 0;
+			margin-bottom: 0;
+			padding-bottom: 0;
+			font-size: 2.5rem;
+			color: white;
+			text-shadow: 3px 2px grey;
+		}
+		main section{
+			padding-top: 5rem;
+			display: flex;
+			flex-basis: 80%;
+			flex-wrap: wrap;
+		}
+		ul {
+			padding-left: 0;
+			font-size: 1rem;
+		}
+		ul li {
+			padding: .25rem;
+			margin: .5rem 0;
+			list-style-type: none;
+			display: inline-block;
+		}
+		footer {
+			font-size: .75rem;
+			color: #800;
+			text-align: center;
+			background-color: #f9ecf2;
+			border-top: 1px solid #800;
+			padding: 1rem;
+			margin-top: 2rem;
+		}
+		.logo {
+			font-family: 'IM Fell Great Primer SC', serif;
+			margin-left: 2rem;
+			border: 2px solid #800;
+			padding: .5rem;
+			background-color: white
+		}
+		.hero {
+			display: flex;
+			margin-top: 0;
+		    background-image: url(images/ant.jpg);
+		    background-repeat: no-repeat;
+		    background-attachment: fixed;
+	    	height: 80vh;
+	    	width: 100vw;
+	    	background-size: cover;
+	    	border-bottom: 4px solid #800;
+	    	justify-content: center;
+	    	flex-direction: column;
+		}
+		.feature {
+			justify-content: center;
+		}
+		.categories{
+			padding:4rem;
+			padding-bottom: 0;
+			flex-basis: 90%;
+			justify-content: space-between;
+		}
+		.about {
+			width: 20rem;
+		}
+
+
+
+
+
+
+
+
+
+
