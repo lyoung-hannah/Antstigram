@@ -485,7 +485,7 @@ Portfolio Component
 }
 
 .portfolio-card:hover .description h3 {
-	animation: font-growth .5s ease;
+	animation: font-growth .5s ease-out;
 	color: white;
 	font-size: 5rem;
 	margin-top: 0;
@@ -494,10 +494,10 @@ Portfolio Component
 
 @keyframes font-growth {
 	0% {
-		font-size: var(--size-medium);
+		font-size: var(--size-small);
 	}
 	100% {
-		font-size: var(--size-large);
+		font-size: var(--size-xxxl);
 	}
 }
 
