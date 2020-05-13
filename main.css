@@ -464,7 +464,7 @@ Portfolio Component
 	position: absolute;
 	right: 0;
 	text-align: center;
-	top: 6rem;
+	top: 15rem;
 	visibility: hidden;
 }
 
@@ -497,7 +497,7 @@ Portfolio Component
 		font-size: var(--size-medium);
 	}
 	100% {
-		font-size: var(--size-xl);
+		font-size: var(--size-large);
 	}
 }
 
@@ -547,17 +547,16 @@ Feature Component
 	padding-top: 0;
 }
 
+@media (min-width: 800px) {
 
-.feature {
-	display: inline-flex;
+	.feature {
+		display: flex;
+	}
 }
+
 
 .feature img {
 	height: 20rem;
 	padding-left: 2rem;
 	width: 15rem;
-}
-
-.about {
-	width: 20rem;
 }
